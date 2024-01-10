@@ -1,8 +1,8 @@
 //complete this code
 class Person {
 	constructor(name,age){
-		this.name = name,
-		this.age= age
+		name = this.name,
+		age = this.age
 	}
 }
 
@@ -16,7 +16,7 @@ class Student extends Person {
 class Teacher extends Person {
 	super(name,age)
 	teach(){
-		console.log(`${anme} is teaching`)
+		console.log(`${name} is teaching`)
 	}
 }
 

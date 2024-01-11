@@ -4,6 +4,12 @@ class Person {
 		this.name= name ;
 		this.age = age;
 	}
+	get getName(){
+		return ${this.name}
+	}
+	set setAge(){
+		this.age = age
+	}
 }
 
 class Student extends Person {

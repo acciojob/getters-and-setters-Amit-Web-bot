@@ -1,10 +1,10 @@
 //complete this code
 class Person {
-	constructor(name,age){
-		this.name= name ;
-		this.age = age;
+	constructor(n,a){
+		this.name= n ;
+		this.age = a;
 	}
-	get getName(){
+	get name(){
 		return ${this.name}
 	}
 	set setAge(){

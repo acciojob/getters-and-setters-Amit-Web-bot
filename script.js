@@ -9,27 +9,20 @@ class Person {
 	}
 	set setAge(age){
 		this._age = age
-		return age
 	}
 }
 
 class Student extends Person {
-	constructor(name){
-		super(name);
-		study(name){
-			console.log(this.name + "is studying")
+		study(){
+			console.log(`${this.name} is studying`)
 		}
 	}
-}
 
 class Teacher extends Person {
-	constructor(name){
-		super(name);
-		teach(name){
+		teach(){
 			console.log(this.name + "is teaching")
 		}
 	}
-}
 
 // Do not change the code below this line
 window.Person = Person;
